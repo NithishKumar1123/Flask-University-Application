@@ -20,7 +20,7 @@ A School web application and a database model using flask and flask-SQLAlchemy.
 
 ###### Name         Type     Constraints
 #### student id   Integer  Primary Key, Auto Increment
-#### roll number  String   Unique, Not Null
+roll number  String   Unique, Not Null
 #### first name   String   Not Null
 #### last name    String
 
