@@ -14,8 +14,8 @@ A School web application and a database model using flask and flask-SQLAlchemy.
 10. If the user clicks the “Delete” button, your flask application should send a GET request to an end-point "/student/<int:student id>/delete", which should delete the student and all the corresponding enrollments from the database and redirect to the home page (URI = "/").
 11. If the user clicks on the roll number of any row in the table in the home page of the flask application, the application should send a GET request to an endpoint "/student/<int:student id>", which should show all the information (student details and enrollment details) in an HTML page. The HTML page should also have a button labelled "Go Back" to navigate back to the home page (URI = "/"). There must be 2 HTML tables in this page, one for showing the personal details and the other for displaying the enrollment details.
 
-## Database Description
-1: student
-2: course
-3: enrollments
+## Databases
+1. Student
+2. Course
+3. Enrollments
 
