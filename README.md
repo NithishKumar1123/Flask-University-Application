@@ -18,23 +18,23 @@ A School web application and a database model using flask and flask-SQLAlchemy.
 
 ### Table 1: student
 
-Name         Type     Constraints
-student id   Integer  Primary Key, Auto Increment
-roll number  String   Unique, Not Null
-first name   String   Not Null
-last name    String
+#### Name         Type     Constraints
+#### student id   Integer  Primary Key, Auto Increment
+#### roll number  String   Unique, Not Null
+#### first name   String   Not Null
+#### last name    String
 
 ### Table 2: course
 
-Name                Type     Constraints
-course id           Integer  Primary Key, Auto Increment
-course code         String   Unique, Not Null
-course name         String   Not Null
-course description  String
+#### Name                Type     Constraints
+#### course id           Integer  Primary Key, Auto Increment
+#### course code         String   Unique, Not Null
+#### course name         String   Not Null
+#### course description  String
 
 ### Table 3: enrollments
 
-Name            Type      Constraints
-enrollment id   Integer   Primary Key, Auto Increment
-estudent id     Integer   Foreign Key (student.student id), Not Null
-ecourse id      Integer   Foreign Key (course.course id), Not Null
+#### Name            Type      Constraints
+#### enrollment id   Integer   Primary Key, Auto Increment
+#### estudent id     Integer   Foreign Key (student.student id), Not Null
+#### ecourse id      Integer   Foreign Key (course.course id), Not Null
