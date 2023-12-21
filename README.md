@@ -15,26 +15,7 @@ A School web application and a database model using flask and flask-SQLAlchemy.
 11. If the user clicks on the roll number of any row in the table in the home page of the flask application, the application should send a GET request to an endpoint "/student/<int:student id>", which should show all the information (student details and enrollment details) in an HTML page. The HTML page should also have a button labelled "Go Back" to navigate back to the home page (URI = "/"). There must be 2 HTML tables in this page, one for showing the personal details and the other for displaying the enrollment details.
 
 ## Database Description
+1: student
+2: course
+3: enrollments
 
-### Table 1: student
-
-Name         Type     Constraints
-student id   Integer  Primary Key, Auto Increment
-roll number  String   Unique, Not Null
-#### first name   String   Not Null
-#### last name    String
-
-### Table 2: course
-
-#### Name                Type     Constraints
-#### course id           Integer  Primary Key, Auto Increment
-#### course code         String   Unique, Not Null
-#### course name         String   Not Null
-#### course description  String
-
-### Table 3: enrollments
-
-#### Name            Type      Constraints
-#### enrollment id   Integer   Primary Key, Auto Increment
-#### estudent id     Integer   Foreign Key (student.student id), Not Null
-#### ecourse id      Integer   Foreign Key (course.course id), Not Null
