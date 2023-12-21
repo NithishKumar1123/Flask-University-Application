@@ -18,7 +18,7 @@ A School web application and a database model using flask and flask-SQLAlchemy.
 
 ### Table 1: student
 
-#### Name         Type     Constraints
+##### Name         Type     Constraints
 #### student id   Integer  Primary Key, Auto Increment
 #### roll number  String   Unique, Not Null
 #### first name   String   Not Null
