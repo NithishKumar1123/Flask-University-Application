@@ -1,4 +1,4 @@
-# School-Application
+# Flask University Application
 A School web application and a database model using flask and flask-SQLAlchemy.
 
 ## Requirements
